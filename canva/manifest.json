@@ -1,0 +1,40 @@
+{
+  "id": "canva",
+  "name": "canva",
+  "version": "1.0.3",
+  "package_type": "mcp",
+  "description": "Community connector for Canva's official MCP server: search, create, edit, comment on and export Canva designs.",
+  "display_name": {
+    "zh": "Canva 可画",
+    "en": "Canva"
+  },
+  "display_description": {
+    "zh": "通过 Canva 官方 MCP 服务连接你的 Canva 账号：搜索和管理设计、AI 生成海报/演示文稿/文档、编辑文字与图片、评论协作，并导出为 PDF、PNG、PPTX 等格式。首次连接会在浏览器中打开 Canva 授权页面。社区连接器，非 Canva 官方出品；需要本机可用的 Node.js（WorkSwarm 自带）。",
+    "en": "Connect your Canva account through Canva's official MCP server: search and organise designs, generate posters, presentations and docs with AI, edit text and images, comment, and export to PDF, PNG, PPTX and more. The first connection opens Canva's sign-in page in your browser. Community connector, not made by Canva; requires Node.js (bundled with WorkSwarm)."
+  },
+  "examples": {
+    "zh": [
+      "用 Canva 做一张“周五团队午餐”的海报，做好后把链接发给我",
+      "在 Canva 里找到我最近的演示文稿，总结每一页的内容",
+      "把我那份产品介绍的 Canva 设计导出成 PDF",
+      "把这张海报改成适合小红书的竖版尺寸"
+    ],
+    "en": [
+      "Make a Canva poster for Friday's team lunch and send me the link",
+      "Find my most recent Canva presentation and summarise each slide",
+      "Export my product overview design from Canva as a PDF",
+      "Resize this poster into a portrait version for Instagram Stories"
+    ]
+  },
+  "tags": ["design", "canva", "poster", "presentation", "export"],
+  "icon": "icon.png",
+  "integration": {
+    "type": "stdio-mcp",
+    "file": "mcp.json"
+  },
+  "skills": [
+    {
+      "dir": "skills"
+    }
+  ]
+}

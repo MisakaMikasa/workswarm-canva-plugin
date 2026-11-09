@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "canva": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote@0.15.2", "https://mcp.canva.com/mcp"],
+      "timeout": 300
+    }
+  }
+}
